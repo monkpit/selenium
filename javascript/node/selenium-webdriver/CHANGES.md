@@ -5,6 +5,10 @@
 * Deprecated `Promise#thenFinally()` - use `Promise#finally()`. The thenFinally
    shim added to the promise module in v2.53.0 will be removed in v3.0
    Sorry for the churn!
+* FIXED: capabilities serialization now properly handles undefined vs.
+   false-like values.
+* FIXED: properly handle responses from the remote end in
+   `WebDriver.attachToSession`
 
 ## v2.53.1
 
